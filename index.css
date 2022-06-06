@@ -1,0 +1,195 @@
+body {
+  font-family: "Kalam", cursive;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  text-align: center;
+  line-height: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+li {
+  list-style: none;
+}
+
+.active {
+  color: rgb(0, 153, 255);
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.bar {
+  align-items: center;
+  justify-content: space-between;
+  border: 0.2rem solid #000;
+  padding: 0 0.3rem;
+}
+
+nav ul {
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.cursor {
+  border-right: 0.1rem solid #000;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+.contact li {
+  list-style: disc;
+  border: none;
+}
+
+ul li:last-of-type {
+  border: none;
+}
+
+.date {
+  text-align: end;
+}
+
+#contact,
+#add-books {
+  display: none;
+}
+
+.book-content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+}
+
+.book-content p {
+  font-size: 1.2rem;
+}
+
+.bookItem {
+  border: 0.25rem solid #000;
+  background-image:
+    linear-gradient(
+      0deg,
+      #fff 25%,
+      #bbb 25%,
+      #bbb 50%,
+      #fff 50%,
+      #fff 75%,
+      #bbb 75%,
+      #bbb 100%
+    );
+  background-size: 338px 338px;
+}
+
+.border {
+  width: 5rem;
+  height: 0.23rem;
+  margin: 0 auto;
+  background-color: #000;
+  margin-top: 1rem;
+}
+
+.add-newbook {
+  text-align: center;
+  color: #000;
+}
+
+.remove {
+  box-shadow: 3px 5px 3px -2px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 3px 5px 3px -2px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 3px 5px 3px -2px rgba(0, 0, 0, 0.69);
+  border: 0.15rem solid #000;
+  color: #000;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.book-properties {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.bookName,
+.authorName {
+  border: 0.25rem solid #000;
+  padding: 0.3rem 0 0.3rem 0.3rem;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 40%;
+}
+
+.bookName::placeholder {
+  color: #000;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.authorName::placeholder {
+  color: #000;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.submit {
+  position: absolute;
+  right: 30vw;
+  box-shadow: 3px 5px 3px -2px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 3px 5px 3px -2px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 3px 5px 3px -2px rgba(0, 0, 0, 0.69);
+  border: 0.15rem solid #000;
+  background-color: transparent;
+  color: #000;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.list-heading {
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact {
+  padding: 1.5rem 0;
+}
+
+.contact-info {
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  border: 0.2rem solid #000;
+  padding: 0.3rem 0.4rem;
+  margin-top: 4rem;
+}
