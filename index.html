@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Awesome Book</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bar d-flex">
+            <h1 class="heading">Awesome Books</h1>
+            <nav>
+                <ul class="d-flex">
+                    <li id="list" class="active cursor">list</li>
+                    <li id="add-new" class="cursor">Add new</li>
+                    <li id="contact-nav" class="cursor">Contact</li>
+                </ul>
+            </nav>
+        </div>
+        <p id="date-ti"></p>
+    </div>
+    <section class="add-books" id="add-books">
+        <div class="container">
+            <div class="books"></div>
+            <div class="border"></div>
+            <h2 class="add-newbook">Add a new book</h2>
+            <form>
+                <div class="book-properties d-flex">
+                    <input type="text" id="bookName" placeholder="Title" class="bookName">
+                    <input type="text" id="authorName" placeholder="Author" class="authorName">
+                </div>
+                <button type="button" id="addBook" class="submit">Add</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="list container" id="books">
+        <h2 class="list-heading">All awesome books</h2>
+    </section>
+
+    <section class="contact container" id="contact">
+        <h2>Contact information</h2>
+        <div class="contact-info d-flex">
+            <p>Do you have any questions or you just want to say hello? <br>You can reach out to us!</p>
+            <ul>
+                <li>Our email: mail@mail.com</li>
+                <li>Our phone number: 0043586534422</li>
+                <li>Our addres: Streetname 22, 84503 City, Country</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="footer container">
+        <footer>
+            <p>Copyright -</p>
+        </footer>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
