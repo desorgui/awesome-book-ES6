@@ -1,4 +1,4 @@
-export class Books {
+class Books {
   constructor() {
     this.title = '';
     this.author = '';
@@ -23,3 +23,5 @@ export class Books {
     this.books = storage;
   }
 }
+
+export default Books;

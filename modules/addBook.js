@@ -1,4 +1,4 @@
-export const addBook = (booksContainer, bookName, authorName, addOneBook, BookList) => {
+const addBook = (booksContainer, bookName, authorName, addOneBook, BookList) => {
   addOneBook.addEventListener('click', () => {
     if (bookName.value && authorName.value) {
       BookList.addBook(bookName.value, authorName.value);
@@ -8,3 +8,5 @@ export const addBook = (booksContainer, bookName, authorName, addOneBook, BookLi
     }
   });
 };
+
+export default addBook;

@@ -1,4 +1,4 @@
-export const listbook = (booksContainer, books, bookItem) => {
+const listbook = (booksContainer, books, bookItem) => {
   if (booksContainer) {
     booksContainer.forEach((element) => {
       bookItem.classList.add('bookItem');
@@ -13,7 +13,5 @@ export const listbook = (booksContainer, books, bookItem) => {
       books.appendChild(bookItem);
     });
   } else booksContainer = [];
-}
-listbook();
-  
-  
+};
+export default listbook;
