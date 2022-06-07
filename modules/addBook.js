@@ -1,4 +1,3 @@
-/*eslint-disable */
 export const addBook = (booksContainer, bookName, authorName, addOneBook, BookList) => {
   addOneBook.addEventListener('click', () => {
     if (bookName.value && authorName.value) {

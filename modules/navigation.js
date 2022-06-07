@@ -1,4 +1,3 @@
-/*eslint-disable */
 export const navigation = () => {
   const list = document.getElementById('list');
   const addNew = document.getElementById('add-new');

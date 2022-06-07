@@ -1,4 +1,3 @@
-/*eslint-disable */
 export class Books {
   constructor() {
     this.title = '';

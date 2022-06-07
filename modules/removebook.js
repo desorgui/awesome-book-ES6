@@ -1,4 +1,3 @@
-/*eslint-disable */     
 export const removeBook = (booksContainer, bookItem, BookList) => {
   const removeBook = bookItem.querySelectorAll('.remove-book');
   removeBook.forEach((element, index) => {
