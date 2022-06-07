@@ -1,5 +1,6 @@
-export const removeBook = (booksContainer, bookItem) => {
-  const removeBook = bookItem.querySelectorAll('.remove-book');  
+/*eslint-disable */     
+export const removeBook = (booksContainer, bookItem, BookList) => {
+  const removeBook = bookItem.querySelectorAll('.remove-book');
   removeBook.forEach((element, index) => {
     element.addEventListener('click', () => {
       BookList.removeBook(index);
@@ -8,4 +9,4 @@ export const removeBook = (booksContainer, bookItem) => {
       window.location.reload();
     });
   });
-}
+};

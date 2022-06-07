@@ -1,3 +1,4 @@
+/*eslint-disable */
 export const listbook = (booksContainer, books, bookItem) => {
   if (booksContainer) {
     booksContainer.forEach((element) => {
