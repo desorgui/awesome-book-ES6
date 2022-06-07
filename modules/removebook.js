@@ -1,4 +1,4 @@
-export const removeBook = () => {
+export const removeBook = (booksContainer, bookItem) => {
   const removeBook = bookItem.querySelectorAll('.remove-book');  
   removeBook.forEach((element, index) => {
     element.addEventListener('click', () => {
