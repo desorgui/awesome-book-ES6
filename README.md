@@ -1,6 +1,7 @@
 # Awesome-book-ES6
 
-> This is a project where we had to add books, to be more specific we had to add the title of the book and the name of the author.
+> It's a book listing application, from this application you can register a new book by giving the title of the book and the name of the author (without this information the application won't be able to register your data), and then you can see all the books you could register when you click list in the navigation bar. We use the browser as a storage support for any data entered on this application.
+.
 
 ## Built With
 
